@@ -9,121 +9,85 @@
    Wei Tsen-Yu | 魏岑宇
    Quant Trading Engineer · Options Automation · Multi-Broker APIs · Risk & OCO
 
-   本 README 採中英雙語（繁中為主）。English sections are below each part or in collapsible <details>.
+   English first. 中文在下方，點最上面的連結可快速跳轉。
 -->
 
-<!-- ===== HERO ===== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0ea5e9,100:6366f1&text=Wei%20Tsen-Yu%20%7C%20%E9%AD%8F%E5%B2%91%E5%AE%87&fontAlign=50&fontSize=46&fontColor=ffffff&desc=Quant%20Trading%20Engineer%20%E2%80%A2%20Options%20Automation%20%E2%80%A2%20APIs%20%26%20Risk&descAlignY=70&descSize=18" alt="Hero Banner"/>
-</p>
+<a id="en"></a>
+<div align="center">
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/weitsenyu/">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-weitsenyu-0A66C2?logo=linkedin&logoColor=white">
-  </a>
-  <a href="mailto:a0906583999@gmail.com">
-    <img alt="Email" src="https://img.shields.io/badge/Email-a0906583999%40gmail.com-ef4444?logo=gmail&logoColor=white">
-  </a>
-  <img alt="Visitors" src="https://komarev.com/ghpvc/?username=Weitsenyu&color=0ea5e9&label=Visitors">
-  <img alt="Focus" src="https://img.shields.io/badge/Focus-Quant%20%26%20Options-10b981">
-  <img alt="Base" src="https://img.shields.io/badge/Base-Taiwan-22c55e?logo=googlemaps&logoColor=white">
-  <img alt="Open to Work" src="https://img.shields.io/badge/Open%20to-Quant%20Trading%20Engineer-8b5cf6">
-</p>
+# Wei Tsen‑Yu
 
----
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&duration=3200&pause=800&multiline=true&width=900&height=86&lines=Quant+Trading+Engineer;Options+Automation+%7C+Multi-Broker+APIs+%7C+Risk+Engineering)](https://www.linkedin.com/in/weitsenyu/)
 
-## 🛰️ 關於我 · About Me
+**English · [中文在這裡 → Jump to Chinese](#zh)**
 
-**我是魏岑宇（Wei Tsen-Yu）** —— 專注 **選擇權自動化交易** 與 **量化策略工程**。我把研究想法落地為穩定可觀測的交易系統：
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-weitsenyu-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/weitsenyu/)
+[![Email](https://img.shields.io/badge/Email-a0906583999%40gmail.com-ef4444?logo=gmail&logoColor=white)](mailto:a0906583999@gmail.com)
+![Base](https://img.shields.io/badge/Base-Taiwan-22c55e?logo=googlemaps&logoColor=white)
+![Focus](https://img.shields.io/badge/Focus-Quant%20%26%20Options-10b981)
+![Open to Work](https://img.shields.io/badge/Open%20to-Quant%20Trading%20Engineer-8b5cf6)
+![Visitors](https://komarev.com/ghpvc/?username=Weitsenyu&color=0ea5e9&label=Visitors)
 
-- ✅ **策略**：Short Strangle／Iron Condor／Straddle、IV Rank、動態避險  
-- ✅ **API**：**Shioaji**（永豐金）、**CapitalAPI**（凱基）、**IBAPI**（盈透）  
-- ✅ **風控**：**OCO** 一觸即發、MTM 監控、例外管理與 LINE/Discord/Telegram 告警  
-- ✅ **可視化**：**PyQt6** 交易面板、IV Smile／OI Histogram／Greeks、PnL/回撤儀表  
-- ✅ **工程化**：模組化、容器化（Docker）、CI/CD（GitHub Actions）、可觀測性與日誌追溯
-
-> 目標：深耕 **Quant Trading Engineer / Options System Developer**，把「研究 × 工程 × 風控」做到產品級。
-
-<details>
-<summary>English (click to expand)</summary>
-
-I'm <b>Wei Tsen-Yu</b>, focused on <b>options automation</b> and <b>quant strategy engineering</b>.<br/>
-• <b>Strategies</b>: Short Strangle / Iron Condor / Straddle, IV Rank, dynamic hedging<br/>
-• <b>APIs</b>: <b>Shioaji</b>, <b>CapitalAPI</b>, <b>IBAPI</b><br/>
-• <b>Risk</b>: <b>OCO</b> (one-cancels-other), MTM monitoring, alerting via LINE/Discord/Telegram<br/>
-• <b>Visualization</b>: <b>PyQt6</b> trading panel, IV Smile / OI Histogram / Greeks, PnL/MDD dashboards<br/>
-• <b>Engineering</b>: modular architecture, Docker, CI/CD, observability & audit logs
-</details>
+</div>
 
 ---
 
-## 🧭 目錄 · Table of Contents
-- [關於我 · About Me](#-關於我--about-me)
-- [亮點速覽 · Highlights](#-亮點速覽--highlights)
-- [技能矩陣 · Skills Matrix](#-技能矩陣--skills-matrix)
-- [代表專案 · Featured Projects](#-代表專案--featured-projects)
-- [績效與風控觀念 · Performance & Risk](#-績效與風控觀念--performance--risk)
-- [研究與工程 · Research & Engineering](#-研究與工程--research--engineering)
-- [時間線 · Career Timeline](#-時間線--career-timeline)
-- [統計與徽章 · Stats & Badges](#-統計與徽章--stats--badges)
-- [聯絡我 · Contact](#-聯絡我--contact)
-- [附錄 · Appendix（研究清單／FAQ）](#-附錄--appendix研究清單faq)
+## Table of Contents
+- [About](#about)
+- [Highlights](#highlights)
+- [Skills Matrix](#skills-matrix)
+- [System Design](#system-design)
+- [Strategy Playbook](#strategy-playbook)
+- [Risk & Operations](#risk--operations)
+- [Backtesting & Analytics](#backtesting--analytics)
+- [Featured Projects](#featured-projects)
+- [Roadmap](#roadmap)
+- [Stats & Badges](#stats--badges)
+- [Contact](#contact)
+- [中文版本 · Chinese Version](#zh)
 
 ---
 
-## 🚀 亮點速覽 · Highlights
+## About
+I’m a **Quant Trading Engineer** focused on **options automation**, **multi-broker API integration**, and **risk engineering**. I turn research into production systems with strong **observability** and **safety** across the pipeline **market data → risk → execution**.
 
-- 🔁 <b>多券商 API 打通</b>：Shioaji／CapitalAPI／IBAPI <b>同時串接</b>，行情→風控→下單 <b>一條龍自動化</b>  
-- 🧠 <b>Greeks/IV 驅動策略</b>：賣方結構（Short Strangle / Iron Condor）＋<b>動態避險與倉位分層</b>  
-- 🧰 <b>完整工具鏈</b>：PyQt6 GUI、回測框架、監控告警、交易日誌、Docker＋CI/CD  
-- 📈 <b>視覺化</b>：IV Smile、OI Histogram、Payoff、Greeks 全套圖表  
-- 🧪 <b>資料采集</b>：Selenium／BeautifulSoup 擷取 TAIFEX／財報／Tick 餵回測  
-- 🧩 <b>鬆耦合架構</b>：策略引擎、路由器、風控器、報表服務 <b>清晰分層</b>
+- **Strategies**: short-vol structures (Short Strangle / Iron Condor / Straddle), IV/Greeks‑driven logic, dynamic hedging  
+- **APIs**: **Shioaji**, **CapitalAPI**, **IBAPI** — unified routing & normalized order/exec reports  
+- **Engineering**: **PyQt6** trading panel, alerting (LINE / Discord / Telegram), Dockerized services, CI/CD on GitHub Actions  
+- **Visualization**: IV Smile, OI Histogram, Greeks, payoff & PnL dashboards
 
-<details>
-<summary>English (click to expand)</summary>
-
-• <b>Multi-broker integration</b> (Shioaji / CapitalAPI / IBAPI) across market→risk→execution<br/>
-• <b>Greeks & IV-driven</b> short options with <b>dynamic hedging & layered risk</b><br/>
-• <b>End-to-end toolchain</b>: PyQt6 GUI, backtesting, monitoring, logging, Docker, CI/CD<br/>
-• <b>Full visualization</b>: IV Smile, OI Histogram, Payoff, Greeks<br/>
-• <b>Data pipelines</b>: Selenium/BS4 for TAIFEX, earnings, ticks<br/>
-• <b>Modularity</b>: strategy engine, router, risk, reporting
-</details>
+> **Goal:** Keep deepening in options systems engineering — combine **research × engineering × risk** to ship robust, explainable automation.
 
 ---
 
-## 🛠️ 技能矩陣 · Skills Matrix
+## Highlights
+- 🔁 **Multi‑broker integration**: Shioaji / CapitalAPI / IBAPI in one coherent flow (quotes → risk → orders)  
+- 🧠 **Greeks/IV driven**: dynamic strikes/widths, adaptive hedging, structured OCO risk rules  
+- 🧰 **Tooling end‑to‑end**: GUI (PyQt6), backtest framework, monitoring & logs, Docker + CI/CD  
+- 📈 **Rich visuals**: IV Smile, OI/Greeks distributions, payoff & drawdown views  
+- 🧪 **Data pipelines**: Selenium/BS4 for TAIFEX/earnings/ticks feeding research & tests  
+- 🧩 **Modularity**: strategy engine / router / risk / reporting decoupled with clear interfaces
 
-### Core Stack
-**Python**（Pandas／NumPy／SciPy／statsmodels／matplotlib／plotly）  
-**PyQt6**（跨平台交易 GUI 與監控面板）  
-**APIs**：Shioaji／CapitalAPI／IBAPI  
-**Data**：Selenium／BeautifulSoup／Excel 自動化  
-**DB/Infra**：SQL（SQLite／PostgreSQL）、Docker、GitHub Actions  
-**Web**：Node.js／Express、React、D3.js、Socket.IO（市況推播）
+---
+
+## Skills Matrix
+**Python** (Pandas, NumPy, SciPy, statsmodels, matplotlib, plotly) · **PyQt6** · **APIs** (Shioaji / CapitalAPI / IBAPI) · **SQL** · **Selenium/BS4** · **Docker** · **GitHub Actions** · **Node.js/Express** · **React/D3/Socket.IO**
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white">
-  <img src="https://img.shields.io/badge/statsmodels-0A0A0A?logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/PyQt6-41CD52?logo=qt&logoColor=white">
-  <img src="https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=white">
-  <img src="https://img.shields.io/badge/BeautifulSoup-3B82F6?logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/SQL-4479A1?logo=databricks&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white">
-  <img src="https://img.shields.io/badge/Shioaji-0ea5e9?logo=datadog&logoColor=white">
+  <img src="https://img.shields.io/badge/Shioaji-0ea5e9">
   <img src="https://img.shields.io/badge/CapitalAPI-f97316">
   <img src="https://img.shields.io/badge/IBAPI-ef4444?logo=interactivebrokers&logoColor=white">
-  <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white">
+  <img src="https://img.shields.io/badge/SQL-4479A1">
+  <img src="https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white">
   <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB">
   <img src="https://img.shields.io/badge/D3.js-F9A03C?logo=d3.js&logoColor=white">
   <img src="https://img.shields.io/badge/Socket.IO-010101?logo=socket.io&logoColor=white">
 </p>
 
-### 技能心智圖（Mermaid Mindmap）
 ```mermaid
 mindmap
   root((Wei Tsen-Yu · Skills))
@@ -163,19 +127,7 @@ mindmap
 
 ---
 
-## 🌟 代表專案 · Featured Projects
-
-### 1) Option — 自動化選擇權交易平台
-**Repo**：[`Weitsenyu/Option`](https://github.com/Weitsenyu/Option)
-
-- **功能**：多券商 API（Shioaji／Capital／IB）行情→下單→回報一致化、<b>OCO</b>、動態避險、Greeks/IV 模組、交易日誌、風控儀表板  
-- **GUI**：<b>PyQt6</b> 操作面板（Long／Short／Neutral／Micro Long／Micro Short）、條件單管理、異常告警  
-- **視覺**：IV Smile、OI Histogram、Payoff、PnL 分佈  
-- **工程**：模組化策略引擎、路由器、風控器、報表服務；Docker & CI/CD
-
-<details>
-<summary>架構圖（Mermaid）</summary>
-
+## System Design
 ```mermaid
 flowchart LR
   subgraph Data[Data Sources]
@@ -214,23 +166,78 @@ flowchart LR
   TAIFEX --> Strategy
   Earnings --> Strategy
 ```
-</details>
 
-<p align="center">
+**Notes**
+- **Unified schema** for quotes/orders/executions across brokers
+- **Retries & timeouts** on order routes; **idempotent** commands
+- **Audit logs** for all events; **alerting** on latencies, slippage, risk trips
+
+---
+
+## Strategy Playbook
+- **Short Strangle / Iron Condor**
+  - Entry: IV rank threshold, underlying ATR context, earnings/holiday filters
+  - Width selection: delta targeting & expected move
+  - Management: profit‑taking ladder, rolling & hedging triggers
+- **Dynamic Hedging**
+  - Delta thresholds with cool‑down windows
+  - Use futures or underlying to trim directional risk
+- **Greeks / IV**
+  - Smile/skew checks before entry; **vega** exposure sizing
+  - **Gamma risk** around expiry; reduce width or shut down near‑ITM
+- **OCO Risk**
+  - TP vs. SL mutual exclusion; **kill‑switch** on MTM breach
+  - Throttle orders; duplicate prevention
+
+---
+
+## Risk & Operations
+- **MTM dashboards** and **PnL bands** for day, week, month
+- **Alerts**: LINE / Discord / Telegram with rate‑limit & dedup
+- **Runbooks**: network/broker outage procedures; fallback routes
+- **Post‑trade**: reconcile fills, generate EOD reports (CSV/HTML/PDF)
+
+---
+
+## Backtesting & Analytics
+- **Costs & Slippage**: realistic commissions, partial fills, queue effects
+- **Metrics**: Sharpe, Sortino, MDD, WinRate, PF, hit ratio, tail losses
+- **Scenario tests**: vol expansion/contraction, gap risk, early assignment
+- **Distributions**: intraday PnL, drawdown recovery, trade duration
+
+| Metric | Meaning |
+|---|---|
+| **Sharpe** | Excess return / stdev |
+| **MDD** | Max peak‑to‑trough drawdown |
+| **PF** | Gross profit / gross loss |
+| **WinRate** | Winning trades / total |
+
+---
+
+## Featured Projects
+
+### 1) Option — Automated Options Trading Platform
+**Repo**: **[Weitsenyu/Option](https://github.com/Weitsenyu/Option)**
+
+- **APIs**: Shioaji / Capital / IB unified routing, consistent exec reports  
+- **Risk**: **OCO**, MTM bands, alerts, kill‑switch  
+- **GUI**: **PyQt6** panel (Long/Short/Neutral/Micro modes), conditional orders, exceptions view  
+- **Visuals**: IV Smile, OI Histogram, Payoff, PnL distribution  
+- **Engineering**: modular strategy engine, router, risk, reports; Docker & CI/CD
+
+<p align="left">
   <a href="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=Option&theme=radical">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=Option&theme=radical" alt="Option Repo Card"/>
   </a>
 </p>
 
----
+### 2) YouTube‑Shorts‑Desktop — Desktop Shorts Manager
+**Repo**: **[Weitsenyu/YouTube‑Shorts‑Desktop](https://github.com/Weitsenyu/YouTube-Shorts-Desktop)**
 
-### 2) YouTube-Shorts-Desktop — 桌面端 Shorts 管理
-**Repo**：[`Weitsenyu/YouTube-Shorts-Desktop`](https://github.com/Weitsenyu/YouTube-Shorts-Desktop)
+- **Tech**: Electron + Node.js (or PyQt6 build), singleton + global hotkeys  
+- **Features**: desktop viewing/management, API fetch, smooth UI
 
-- **技術**：Electron + Node.js（或 PyQt6 版本）、全局快捷鍵、單例、設定與持久化  
-- **功能**：桌面觀看／管理 Shorts、API 取數、流暢 UI 互動
-
-<p align="center">
+<p align="left">
   <a href="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=YouTube-Shorts-Desktop&theme=radical">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=YouTube-Shorts-Desktop&theme=radical" alt="YSD Repo Card"/>
   </a>
@@ -238,67 +245,26 @@ flowchart LR
 
 ---
 
-## 🛡️ 績效與風控觀念 · Performance & Risk
-
-> <b>原則重於數字</b>：市場會變，系統要抗壓。  
-> 以 <b>回撤控制（MDD）</b>、<b>動態避險</b>、<b>OCO 風控</b>、<b>監控告警</b> 為核心。
-
-- <b>系統面</b>  
-  - <b>Greeks / IV 驅動</b> 的賣方策略（Short Strangle / Iron Condor）  
-  - <b>OCO 觸發互斥</b>、延時／錯單防護、分層控倉  
-  - <b>MTM 監控</b>＋<b>LINE/Discord/Telegram</b> 告警  
-  - <b>交易日誌</b>：委託／成交／撤單／異常可追溯  
-
-- <b>回測面</b>  
-  - 嚴格納入 <b>交易成本／滑點／停權日／極端事件</b>  
-  - 核心指標 <b>Sharpe、MDD、WinRate、PF、PnL 分佈</b>  
-  - <b>情境壓力測試</b>：波動擴張／收斂、Gap Risk、提前指派
-
-<details>
-<summary>English summary</summary>
-
-<b>System</b>: Greeks/IV-driven short options with <b>OCO</b> risk control, MTM monitoring, alerts, and auditable logs.<br/>
-<b>Backtest</b>: Costs, slippage, halt days, outlier events; Sharpe, MDD, WinRate, PF, distributional PnL; scenario stress.
-</details>
+## Roadmap
+- [ ] Broker redundancy & auto‑failover
+- [ ] Hedging venue selection (liquidity‑aware)
+- [ ] Risk service refactor into micro‑components
+- [ ] Options web dashboard (React + D3)
+- [ ] Strategy config UI & scenario simulator
 
 ---
 
-## 🔬 研究與工程 · Research & Engineering
-
-- <b>定價與風險</b>：Black–Scholes、Monte Carlo、ARCH/GARCH、Put-Call Parity 偏離監控  
-- <b>資料處理</b>：日內 Tick／Bid-Ask 聚合、波動微結構、TAIFEX／上市櫃資料清洗  
-- <b>自動化</b>：Selenium／BS4 排程抓取、Excel 自動匯出、週期風險報表  
-- <b>產品化</b>：Docker 容器化、GitHub Actions CI/CD、自動測試與部署
-
----
-
-## 🕰️ 時間線 · Career Timeline
-
-```mermaid
-timeline
-  title Wei Tsen-Yu · Career & Projects
-  2019-2024 : FJU EE | Researching markets & coding automation
-  2024-12   : Options Trader | Short Strangle / Iron Condor, OCO/Risk
-  2025-01   : Dev Team Lead | Multi-broker APIs, GUI, monitoring pipeline
-  2025-03   : Desktop App | YouTube-Shorts-Desktop
-  2025-05   : Options Trading Dashboard (Web) | React + D3 + Socket.IO
-  2025-Now  : Quant Trading Engineer | Building robust options systems
-```
-
----
-
-## 📊 統計與徽章 · Stats & Badges
-
+## Stats & Badges
 <p align="left">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Weitsenyu&show_icons=true&theme=radical&hide_border=false" alt="GitHub Stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Weitsenyu&layout=compact&theme=radical&hide_border=false" alt="Top Languages"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Weitsenyu&show_icons=true&theme=radical" alt="GitHub Stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Weitsenyu&layout=compact&theme=radical" alt="Top Languages"/>
 </p>
 
 <p align="left">
   <img src="https://github-profile-trophy.vercel.app/?username=Weitsenyu&theme=dracula&margin-w=10&row=1&column=7" alt="Trophies"/>
 </p>
 
-<!-- 若日後想加「蛇形貢獻圖」，需建立 GitHub Action（可參考 Platane/snk）後再啟用下列影像：
+<!-- If you want the contribution snake later, enable a GitHub Action (Platane/snk) and then use the image below.
 <p align="left">
   <img src="https://raw.githubusercontent.com/Weitsenyu/Weitsenyu/output/github-contribution-grid-snake.svg" alt="Snake Contribution"/>
 </p>
@@ -306,51 +272,237 @@ timeline
 
 ---
 
-## 🤝 正在尋找 · Open to Work
-
-- <b>Quant Trading Engineer</b>（量化交易工程師）  
-- <b>Options System Developer</b>（選擇權系統開發）
-
-> 合作或機會邀約，歡迎透過 <b>LinkedIn</b> 或 <b>Email</b> 聯繫 🙌
+## Contact
+- **LinkedIn**: https://www.linkedin.com/in/weitsenyu/  
+- **Email**: a0906583999@gmail.com
 
 ---
 
-## 🔗 速連 · Quick Links
+<a id="zh"></a>
+<div align="center">
 
-- 🧰 Option（自動化選擇權交易平台）：<https://github.com/Weitsenyu/Option>  
-- 💻 YouTube-Shorts-Desktop：<https://github.com/Weitsenyu/YouTube-Shorts-Desktop>  
-- 💼 LinkedIn：<https://www.linkedin.com/in/weitsenyu/>  
-- ✉️ Email：<b>a0906583999@gmail.com</b>
+# 中文版本 · Chinese Version
 
----
+**[Back to English](#en)**
 
-## 📎 附錄 · Appendix（研究清單／FAQ）
+</div>
 
-### ① 研究主題（持續擴充）
-- IV 曲面／Skew／Smile 對賣方倉位的風險傳導  
-- 事件風險（財報／宏觀）對隱波與定價的影響  
-- 微結構：Bid-Ask 擴張與成交不對稱對日內 PnL 的影響  
-- 動態避險觸發條件、對沖成本與效率  
-- Put-Call Parity 偏離偵測與套利窗口
+## 關於我
+我是一名 **量化交易工程師**，專注 **選擇權自動化**、**多券商 API 串接** 與 **風險工程**，將研究轉化為具 **可觀測性** 與 **安全性** 的實戰系統，完整覆蓋 **行情 → 風控 → 下單** 流程。
 
-### ② 回測設計（要點）
-- 區間：交易日交集、結算日處理、到期週期  
-- 指標：累積／年化報酬、Sharpe、MDD、PF、WinRate  
-- 分佈：日內 PnL、尾部風險、Gap Risk 情境  
-- 成本：交易費／滑點／借券成本（如適用）
+- **策略**：賣方結構（Short Strangle / Iron Condor / Straddle）、IV/Greeks 驅動、動態避險  
+- **API**：**Shioaji**、**CapitalAPI**、**IBAPI**（下單路由與委託回報一致化）  
+- **工程**：**PyQt6** 交易面板、LINE/Discord/Telegram 告警、Docker 化服務、GitHub Actions CI/CD  
+- **視覺**：IV Smile、OI Histogram、Greeks、Payoff 與 PnL 儀表板
 
-### ③ FAQ
-**Q1：為什麼偏好賣方策略？**  
-A：波動溢價（vol premia）與 theta 衰減可被系統化捕捉；搭配 <b>IV/Greeks</b> 與 <b>OCO</b> 風控，極端情況更可控與可解釋。
-
-**Q2：如何降低「黑天鵝」風險？**  
-A：分層控倉、事件暫停／降槓桿、動態避險、跨券商路由冗餘、風控閾值多層觸發（含撤退機制）。
-
-**Q3：研究 vs 工程？**  
-A：我做兩者橋接。<b>研究要能落地</b>；工程要可維護、可觀測、可擴展 —— 這是我最重視的能力結構。
+> **目標：**持續深耕 **選擇權系統工程**，以 **研究 × 工程 × 風控** 打造穩健、可解釋的自動化交易。
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:6366f1,100:0ea5e9&section=footer" alt="wave footer"/>
+## 亮點速覽
+- 🔁 **多券商打通**：Shioaji / CapitalAPI / IBAPI 同步整合（行情→風控→下單）  
+- 🧠 **Greeks/IV 驅動**：自適應履約價與價差寬度、動態避險、OCO 規則化  
+- 🧰 **完整工具鏈**：GUI（PyQt6）、回測框架、監控告警與日誌、Docker＋CI/CD  
+- 📈 **視覺化**：IV Smile、OI/Greeks 分布、Payoff、Drawdown  
+- 🧪 **資料管線**：Selenium/BS4 擷取 TAIFEX／財報／Tick 餵研究與回測  
+- 🧩 **模組化**：策略引擎／路由器／風控／報表清晰分工
+
+---
+
+## 技能矩陣
+**Python**（Pandas、NumPy、SciPy、statsmodels、matplotlib、plotly）· **PyQt6** · **APIs**（Shioaji／CapitalAPI／IBAPI）· **SQL** · **Selenium/BS4** · **Docker** · **GitHub Actions** · **Node.js/Express** · **React/D3/Socket.IO**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/PyQt6-41CD52?logo=qt&logoColor=white">
+  <img src="https://img.shields.io/badge/Shioaji-0ea5e9">
+  <img src="https://img.shields.io/badge/CapitalAPI-f97316">
+  <img src="https://img.shields.io/badge/IBAPI-ef4444?logo=interactivebrokers&logoColor=white">
+  <img src="https://img.shields.io/badge/SQL-4479A1">
+  <img src="https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white">
+  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB">
+  <img src="https://img.shields.io/badge/D3.js-F9A03C?logo=d3.js&logoColor=white">
+  <img src="https://img.shields.io/badge/Socket.IO-010101?logo=socket.io&logoColor=white">
 </p>
+
+```mermaid
+mindmap
+  root((魏岑宇 · 技能))
+    策略
+      Short Strangle
+      Iron Condor
+      Straddle
+      IV Rank
+      動態避險
+    API
+      Shioaji
+      CapitalAPI
+      IBAPI
+    風控/運維
+      OCO
+      MTM 監控
+      告警 (LINE/Discord/Telegram)
+      審計日誌
+    GUI/視覺
+      PyQt6 面板
+      IV Smile
+      OI Histogram
+      Greeks/Payoff
+    回測
+      成本/滑點
+      MDD/Sharpe/PF
+      情境壓力
+    資料
+      Selenium
+      BeautifulSoup
+      Excel 自動化
+    基礎設施
+      Docker
+      GitHub Actions
+      模組化
+```
+
+---
+
+## 系統設計
+```mermaid
+flowchart LR
+  subgraph Data[資料來源]
+    Ticks[(Ticks)]
+    TAIFEX[(TAIFEX/CSV)]
+    Earnings[(財報/事件)]
+  end
+
+  subgraph Strategy[策略引擎]
+    IV[IV/Greeks]
+    SStrangle[Short Strangle]
+    ICondor[Iron Condor]
+    Hedger[動態避險]
+  end
+
+  subgraph Risk[風控系統]
+    OCO[OCO 管理]
+    MTM[MTM 監控]
+    Alerts[LINE/Discord/Telegram]
+  end
+
+  subgraph Router[交易路由]
+    SHIOAJI[Shioaji]
+    CAPITAL[CapitalAPI]
+    IB[IBAPI]
+  end
+
+  subgraph UIRep[UI & 報表]
+    PyQt6[PyQt6 面板]
+    Viz[IV Smile / OI / Payoff]
+    Logs[交易日誌]
+  end
+
+  Data --> Strategy --> Risk --> Router --> UIRep
+  Ticks --> Strategy
+  TAIFEX --> Strategy
+  Earnings --> Strategy
+```
+
+**重點**
+- **資料/委託格式統一**，跨券商一致化
+- **路由重試與超時**；命令具 **冪等性**
+- **審計日誌** 全事件；**延遲/滑點/風險** 告警
+
+---
+
+## 策略手冊
+- **Short Strangle / Iron Condor**
+  - 進場：IV Rank 門檻、ATR/事件濾網
+  - 寬度：Delta 目標與 Expected Move
+  - 管理：分段停利、Rolling 與避險觸發
+- **動態避險**
+  - Delta 阈值與冷卻時間
+  - 以期貨/標的對沖方向性風險
+- **Greeks / IV**
+  - 進場前 Smile/Skew 檢查；**Vega** 控倉
+  - 到期前 **Gamma** 風險收斂或關閉
+- **OCO 風控**
+  - TP/SL 互斥；**Kill‑switch** 於 MTM 失衡
+  - 節流下單；重複防護
+
+---
+
+## 回測與分析
+- **成本/滑點**：含部分成交、佇列效應
+- **指標**：Sharpe、Sortino、MDD、WinRate、PF、損益尾部
+- **情境**：波動擴張/收斂、Gap Risk、提前指派
+- **分佈**：日內 PnL、回撤修復、持倉天數
+
+| 指標 | 說明 |
+|---|---|
+| **Sharpe** | 超額報酬 / 標準差 |
+| **MDD** | 峰谷回撤 |
+| **PF** | 總利潤 / 總虧損 |
+| **WinRate** | 勝場比例 |
+
+---
+
+## 代表專案
+
+### 1) Option — 自動化選擇權交易平台
+**倉庫**：**[Weitsenyu/Option](https://github.com/Weitsenyu/Option)**
+
+- **API**：Shioaji / Capital / IB 統一路由、回報一致化  
+- **風控**：**OCO**、MTM 區間、告警、緊急 **kill‑switch**  
+- **GUI**：**PyQt6** 面板（Long/Short/Neutral/Micro 模式）、條件單管理、例外處理  
+- **視覺**：IV Smile、OI Histogram、Payoff、PnL 分佈  
+- **工程**：模組化策略引擎、路由、風控、報表；Docker & CI/CD
+
+<p align="left">
+  <a href="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=Option&theme=radical">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=Option&theme=radical" alt="Option Repo Card"/>
+  </a>
+</p>
+
+### 2) YouTube‑Shorts‑Desktop — 桌面端 Shorts 管理
+**倉庫**：**[Weitsenyu/YouTube‑Shorts‑Desktop](https://github.com/Weitsenyu/YouTube-Shorts-Desktop)**
+
+- **技術**：Electron + Node.js（或 PyQt6 版本）、單例、全局快捷鍵  
+- **功能**：桌面觀看/管理、API 取數、流暢 UI
+
+<p align="left">
+  <a href="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=YouTube-Shorts-Desktop&theme=radical">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=YouTube-Shorts-Desktop&theme=radical" alt="YSD Repo Card"/>
+  </a>
+</p>
+
+---
+
+## 規劃
+- [ ] 券商冗餘與自動故障轉移
+- [ ] 避險場域最佳化（流動性感知）
+- [ ] 風控服務微模組化
+- [ ] Web 儀表（React + D3）
+- [ ] 策略設定 UI 與情境模擬器
+
+---
+
+## 統計與徽章
+<p align="left">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Weitsenyu&show_icons=true&theme=radical" alt="GitHub 統計"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Weitsenyu&layout=compact&theme=radical" alt="主要語言"/>
+</p>
+
+<p align="left">
+  <img src="https://github-profile-trophy.vercel.app/?username=Weitsenyu&theme=dracula&margin-w=10&row=1&column=7" alt="Trophies"/>
+</p>
+
+---
+
+## 聯絡
+- **LinkedIn**：https://www.linkedin.com/in/weitsenyu/  
+- **Email**：a0906583999@gmail.com
+
+<div align="center">
+
+**Back to top · [English](#en) · [中文](#zh)**
+
+</div>
