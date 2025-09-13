@@ -1,460 +1,312 @@
-<!--
-   ███████╗ ███████╗███╗   ██╗██╗   ██╗██╗   ██╗██╗   ██╗
-   ██╔════╝ ██╔════╝████╗  ██║██║   ██║╚██╗ ██╔╝╚██╗ ██╔╝
-   █████╗   █████╗  ██╔██╗ ██║██║   ██║ ╚████╔╝  ╚████╔╝
-   ██╔══╝   ██╔══╝  ██║╚██╗██║██║   ██║  ╚██╔╝    ╚██╔╝
-   ██║      ███████╗██║ ╚████║╚██████╔╝   ██║       ██║
-   ╚═╝      ╚══════╝╚═╝  ╚═══╝ ╚═════╝    ╚═╝       ╚═╝
+<div align="center">
 
-   Wei Tsen-Yu | 魏岑宇
-   Quant Trading Engineer · Options Automation · Multi-Broker APIs · Risk & OCO
+# 🎯 Wei Tsen-Yu (魏岑宇)
 
-   README is bilingual. Quick intro first; then pick EN or 中文 from the buttons.
--->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Quantitative+Trading+Engineer;選擇權自動化交易系統開發者;Multi-Broker+API+Integration+Specialist" alt="Dynamic Title" />
+
+[![LinkedIn](https://img.shields.io/badge/-Wei_Tsen_Yu-0077B5?style=flat-square&logo=linkedin&logoColor=white&link=https://linkedin.com/in/weitsenyu)](https://linkedin.com/in/weitsenyu)
+[![Email](https://img.shields.io/badge/-a0906583999@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:a0906583999@gmail.com)
+[![Taiwan](https://img.shields.io/badge/-Taiwan-FF6B6B?style=flat-square&logo=googlemaps&logoColor=white)]()
+[![Visitors](https://komarev.com/ghpvc/?username=Weitsenyu&color=blueviolet&style=flat-square)](https://github.com/Weitsenyu)
+
+---
+
+### 💫 **核心專長 | Core Expertise**
+
+```yaml
+專業領域: 
+  - 量化交易系統開發
+  - 選擇權策略自動化 (Short Strangle, Iron Condor)
+  - 多券商API整合 (Shioaji, CapitalAPI, Interactive Brokers)
+  - 風險管理與OCO訂單系統
+
+技術成就:
+  - 🏆 週報酬率 1-3%，最大回撤 ≤ 1.5%
+  - 🔧 領導4人開發團隊
+  - 📊 Greeks計算與ITM機率模型
+  - ⚡ 即時監控與多通道告警系統
+```
+
+</div>
+
+## 🌟 精選專案 | Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### 🎪 [選擇權交易儀表板](https://github.com/Weitsenyu/Option)
+**Option Trading Dashboard**
+
+<img src="https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3.js&logoColor=white" />
+
+**功能亮點:**
+- 🔄 即時TXF/TXO行情與Bidask價差
+- 📈 互動式IV Smile與OI長條圖
+- 🧮 即時Greeks計算 (Δ/Γ/Θ/Ѵ/ρ)
+- 🎯 策略損益模擬與獲利分布
+- ⚠️ OCO觸價系統與告警
+- 🔌 Shiojai API整合與WebSocket
+
+</td>
+<td width="50%">
+
+### 🎬 [YouTube Shorts 桌面版](https://github.com/Weitsenyu/YouTube-Shorts-Desktop)
+**YouTube Shorts Desktop App**
+
+<img src="https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+
+**創新特色:**
+- 🖼️ 置頂懸浮視窗設計
+- ⌨️ 全域快捷鍵控制
+- 🎭 自動劇院模式
+- 🔧 單一實例保護
+- 💾 設定持久化存儲
+- 🎨 流暢UI與鍵盤操作
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ 技術生態系統 | Technology Ecosystem
 
 <div align="center">
 
-<h1>Wei Tsen-Yu</h1>
+### **程式語言與框架**
+![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 
-<!-- HERO: typing svg (robust, clickable to LinkedIn) -->
-<a href="https://www.linkedin.com/in/weitsenyu/">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&duration=3000&pause=600&multiline=true&width=900&height=90&lines=Quant+Trading+Engineer;Options+Automation+%7C+Multi-Broker+APIs+%7C+Risk+Engineering" alt="Quant Trading Engineer · Options Automation · Multi-Broker APIs · Risk"/>
-</a>
+### **交易API與工具**
+![Shioaji](https://img.shields.io/badge/Shioaji-FF6B6B?style=for-the-badge)
+![CapitalAPI](https://img.shields.io/badge/CapitalAPI-4ECDC4?style=for-the-badge)
+![Interactive Brokers](https://img.shields.io/badge/IB_API-45B7D1?style=for-the-badge)
+![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=for-the-badge&logo=qt&logoColor=white)
 
-<!-- Language switch buttons -->
-<p>
-  <a href="#english"><img alt="English Section" src="https://img.shields.io/badge/Read-EN-1f6feb?style=for-the-badge"></a>
-  <a href="#zh"><img alt="中文段落" src="https://img.shields.io/badge/%E9%96%B1%E8%AE%80-中文-1f883d?style=for-the-badge"></a>
-</p>
+### **前端與視覺化**
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3.js&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
+![Electron](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
 
-<!-- Contact / meta badges -->
-<p>
-  <a href="https://www.linkedin.com/in/weitsenyu/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-weitsenyu-0A66C2?logo=linkedin&logoColor=white"></a>
-  <a href="mailto:a0906583999@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-a0906583999%40gmail.com-ef4444?logo=gmail&logoColor=white"></a>
-  <img alt="Base" src="https://img.shields.io/badge/Base-Taiwan-22c55e?logo=googlemaps&logoColor=white">
-  <img alt="Focus" src="https://img.shields.io/badge/Focus-Quant%20%26%20Options-10b981">
-  <img alt="Open to Work" src="https://img.shields.io/badge/Open%20to-Quant%20Trading%20Engineer-8b5cf6">
-  <img alt="Visitors" src="https://komarev.com/ghpvc/?username=Weitsenyu&color=0ea5e9&label=Visitors">
-</p>
+### **DevOps與部署**
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
 ---
 
-## Quick Intro · 快速介紹
-I build **options trading systems** that connect **market data → risk → execution**, with **Greeks/IV** logic, **OCO** rules, and **PyQt6** dashboards.  
-我打造覆蓋 **行情 → 風控 → 下單** 的 **選擇權系統**，以 **Greeks/IV** 為核心，搭配 **OCO** 規則與 **PyQt6** 儀表。
-
-<p align="center">
-  <a href="#english"><img alt="Jump to English" src="https://img.shields.io/badge/JUMP-EN-1f6feb?style=for-the-badge"></a>
-  <a href="#zh"><img alt="跳到中文" src="https://img.shields.io/badge/%E8%B7%B3%E5%88%B0-中文-1f883d?style=for-the-badge"></a>
-</p>
-
----
-
-<details>
-<summary id="english"><b>🚀 English Section (click to expand)</b></summary>
-
-## 👨‍💻 About
-I'm a **Quant Trading Engineer** focused on **options automation**, **multi-broker API integration**, and **risk engineering**. I turn research into production systems with high **observability** and **safety** across the pipeline **market data → risk → execution**.
-
-- **Strategies**: short-vol structures (Short Strangle / Iron Condor / Straddle), IV/Greeks-driven logic, dynamic hedging  
-- **APIs**: **Shioaji**, **CapitalAPI**, **IBAPI** — unified routing & normalized order/exec reports  
-- **Engineering**: **PyQt6** trading panel, alerting (LINE / Discord / Telegram), Dockerized services, CI/CD on GitHub Actions  
-- **Visualization**: IV Smile, OI Histogram, Greeks, payoff & PnL dashboards
-
-## ⚡ Highlights
-- 🔁 **Multi-broker integration**: Shioaji / CapitalAPI / IBAPI in one coherent flow (quotes → risk → orders)  
-- 🧠 **Greeks/IV driven**: adaptive strikes/widths, dynamic hedging, structured **OCO** risk rules  
-- 🧰 **Tooling**: GUI (PyQt6), backtesting, monitoring/logging, Docker + CI/CD  
-- 📈 **Visuals**: IV Smile, OI/Greeks distributions, payoff & drawdown views  
-- 🧪 **Data**: Selenium/BS4 pipelines for TAIFEX/earnings/ticks  
-- 🧩 **Modularity**: strategy engine / router / risk / reporting decoupled
-
-## 🛠️ Skills Matrix
-**Python** (Pandas, NumPy, SciPy, statsmodels, matplotlib, plotly) · **PyQt6** · **APIs** (Shioaji / CapitalAPI / IBAPI) · **SQL** · **Selenium/BS4** · **Docker** · **GitHub Actions** · **Node.js/Express** · **React/D3/Socket.IO**
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/PyQt6-41CD52?logo=qt&logoColor=white">
-  <img src="https://img.shields.io/badge/Shioaji-0ea5e9">
-  <img src="https://img.shields.io/badge/CapitalAPI-f97316">
-  <img src="https://img.shields.io/badge/IBAPI-ef4444?logo=interactivebrokers&logoColor=white">
-  <img src="https://img.shields.io/badge/SQL-4479A1">
-  <img src="https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white">
-  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB">
-  <img src="https://img.shields.io/badge/D3.js-F9A03C?logo=d3.js&logoColor=white">
-  <img src="https://img.shields.io/badge/Socket.IO-010101?logo=socket.io&logoColor=white">
-</p>
+## 📊 交易系統架構 | Trading System Architecture
 
 ```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'fontSize': '16px', 'primaryColor': '#22272e', 'lineColor': '#9fb3c8'}} }%%
-mindmap
-  root((Wei Tsen-Yu · Skills))
-    Strategy
-      Short Strangle
-      Iron Condor
-      Straddle
-      IV Rank
-      Dynamic Hedging
-    APIs
-      Shioaji
-      CapitalAPI
-      IBAPI
-    Risk/Ops
-      OCO
-      MTM Monitor
-      Alerts (LINE/Discord/Telegram)
-      Audit Logs
-    GUI/Vis
-      PyQt6 Panel
-      IV Smile
-      OI Histogram
-      Greeks/Payoff
-    Backtest
-      Costs/Slippage
-      MDD/Sharpe/PF
-      Scenario Stress
-    Data
-      Selenium
-      BeautifulSoup
-      Excel Automation
-    Infra
-      Docker
-      GitHub Actions
-      Modularization
+graph TB
+    A[市場數據源<br/>Market Data] --> B[數據處理層<br/>Data Processing]
+    B --> C[策略引擎<br/>Strategy Engine]
+    C --> D[風險管理<br/>Risk Management]
+    D --> E[訂單管理<br/>Order Management]
+    E --> F[券商API<br/>Broker APIs]
+    
+    G[監控告警<br/>Monitoring] --> H[LINE/Discord<br/>Telegram]
+    
+    C --> I[Greeks計算<br/>Greeks Calculator]
+    C --> J[IV分析<br/>IV Analysis]
+    
+    D --> K[OCO系統<br/>OCO System]
+    D --> L[MTM監控<br/>MTM Monitor]
+    
+    F --> M[Shioaji]
+    F --> N[CapitalAPI] 
+    F --> O[Interactive Brokers]
+    
+    style A fill:#e1f5fe
+    style C fill:#f3e5f5
+    style D fill:#fff3e0
+    style F fill:#e8f5e8
 ```
 
-## 🏗️ System Architecture
-```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'fontSize': '15px', 'primaryColor': '#1f2328', 'lineColor': '#7aa2f7'}} }%%
-flowchart LR
-  subgraph Data[Data Sources]
-    Ticks[(Ticks)]
-    TAIFEX[(TAIFEX/CSV)]
-    Earnings[(Earnings)]
-  end
+---
 
-  subgraph Strategy[Strategy Engine]
-    IV[IV/Greeks]
-    SStrangle[Short Strangle]
-    ICondor[Iron Condor]
-    Hedger[Dynamic Hedger]
-  end
+## 💼 專業經驗 | Professional Experience
 
-  subgraph Risk[Risk System]
-    OCO[OCO Manager]
-    MTM[MTM Monitor]
-    Alerts[LINE/Discord/Telegram]
-  end
+<table>
+<tr>
+<td width="30%"><strong>🏢 宇宸財富管理</strong></td>
+<td width="40%"><strong>開發團隊主管</strong></td>
+<td width="30%"><strong>2025.01 - 2025.04</strong></td>
+</tr>
+<tr>
+<td colspan="3">
+• 領導4人技術團隊，負責自動化交易平台架構設計<br/>
+• 整合Shioaji、CapitalAPI、IB API，實現統一下單回報系統<br/>
+• 建立Greeks與ITM機率模型，優化履約價選擇策略<br/>
+• 實現週報酬1-3%，最大回撤≤1.5%的穩定績效<br/>
+</td>
+</tr>
+</table>
 
-  subgraph Router[Trading Router]
-    SHIOJAI[Shioaji]
-    CAPITAL[CapitalAPI]
-    IB[IBAPI]
-  end
-
-  subgraph UIRep[UI & Reports]
-    PyQt6[PyQt6 Panel]
-    Viz[IV Smile / OI / Payoff]
-    Logs[Trade Logs]
-  end
-
-  Data --> Strategy --> Risk --> Router --> UIRep
-  Ticks --> Strategy
-  TAIFEX --> Strategy
-  Earnings --> Strategy
-```
-
-## 📊 Strategy Playbook
-- **Short Strangle / Iron Condor**
-  - Entry: IV rank threshold, ATR context, earnings/holiday filters
-  - Width: delta targeting & expected move
-  - Management: profit ladder, rolling & hedging triggers
-- **Dynamic Hedging**: delta bands, cool-downs; underlier/futures to trim risk  
-- **Greeks/IV**: skew/smile checks; **vega** sizing; **gamma** control near expiry  
-- **OCO Risk**: TP/SL mutual exclusion; MTM kill-switch; order throttling
-
-## 🔬 Backtesting & Analytics
-- **Costs & Slippage**, partial fills, queue effects  
-- **Metrics**: Sharpe, Sortino, MDD, WinRate, PF, tail losses  
-- **Scenarios**: vol expansion/contraction, gap risk, early assignment
-
-## 🎯 Featured Projects
-
-### 🔥 Options Trading Dashboard (TXO/TXF)
-> Real-time trading dashboard with interactive market data, Greeks calculation, and strategy simulation
-
-**[🔗 Weitsenyu/Option](https://github.com/Weitsenyu/Option)**
-
-🌟 **Core Features:**
-- Real-time TXF/TXO market data with bidask spreads  
-- Interactive IV Smile & OI Histogram visualization (D3.js)  
-- Greeks calculation (Delta/Gamma/Theta/Vega/Rho) with live updates  
-- Strategy P&L simulation with profit distribution analysis  
-- OCO trigger system with multi-channel alerts  
-- Shioaji API integration with WebSocket streaming  
-
-**Tech Stack:** `React.js` `Node.js` `D3.js` `Socket.IO` `Docker` `GitHub Actions`
+<table>
+<tr>
+<td width="30%"><strong>🏢 宇宸財富管理 </strong></td>
+<td width="40%"><strong>量化交易員</strong></td>
+<td width="30%"><strong>2024.04 - 2024.12</strong></td>
+</tr>
+<tr>
+<td colspan="3">
+• 開發EMA、布林通道、GARCH策略，使用Python與MultiCharts<br/>
+• 建立OCO訂單邏輯與動態部位管理系統<br/>
+• 自動化TAIFEX tick資料收集與PyQt6交易監控GUI<br/>
+• 實現Put-Call Parity監控與套利機會自動偵測<br/>
+</td>
+</tr>
+</table>
 
 ---
 
-### 🎬 YouTube Shorts Desktop
-> Floating window + global hotkeys for distraction-free YouTube Shorts viewing
-
-**[🔗 Weitsenyu/YouTube-Shorts-Desktop](https://github.com/Weitsenyu/YouTube-Shorts-Desktop)**
-
-🌟 **Core Features:**  
-- Always-on-top floating window for seamless multitasking  
-- Global hotkeys for play/pause/volume control  
-- Auto theater mode & highest quality settings  
-- Single instance protection & persistent settings  
-- Smooth UI with keyboard shortcuts  
-
-**Tech Stack:** `Electron` `Node.js` `CSS3` `JavaScript`
-
----
-
-<p align="left">
-  <a href="https://github.com/Weitsenyu/Option">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=Option&theme=radical" alt="Option Repo Card"/>
-  </a>
-  <a href="https://github.com/Weitsenyu/YouTube-Shorts-Desktop">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=YouTube-Shorts-Desktop&theme=radical" alt="YSD Repo Card"/>
-  </a>
-</p>
-
-## 🗺️ Roadmap
-- [ ] Broker redundancy & auto-failover  
-- [ ] Hedging venue selection (liquidity-aware)  
-- [ ] Risk service micro-components  
-- [ ] Options web dashboard (React + D3)  
-- [ ] Strategy config UI & scenario simulator  
-
-## 📈 GitHub Stats & Activity
-<p align="left">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Weitsenyu&show_icons=true&theme=tokyonight&hide_border=false" alt="GitHub Stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Weitsenyu&layout=compact&theme=tokyonight&hide_border=false" alt="Top Languages"/>
-  <img height="170" src="https://streak-stats.demolab.com?user=Weitsenyu&theme=tokyonight&hide_border=false" alt="GitHub Streak"/>
-</p>
-
-### 🏆 GitHub Trophies
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Weitsenyu&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies"/>
-</p>
-
-### 📊 Contribution Graph
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Weitsenyu&bg_color=0d1117&color=79ff97&line=00b4d8&point=0077b6&area=true&hide_border=true" alt="Contribution Graph"/>
-
-</details>
-
----
-
-<details>
-<summary id="zh"><b>🚀 中文段落（點我展開）</b></summary>
-
-## 👨‍💻 關於我
-我是一名 **量化交易工程師**，專注 **選擇權自動化**、**多券商 API 串接** 與 **風險工程**，將研究轉化為具 **可觀測性** 與 **安全性** 的實戰系統，完整覆蓋 **行情 → 風控 → 下單**。
-
-- **策略**：賣方結構（Short Strangle / Iron Condor / Straddle）、IV/Greeks 驅動、動態避險  
-- **API**：**Shioaji**、**CapitalAPI**、**IBAPI**（下單路由與委託回報一致化）  
-- **工程**：**PyQt6** 交易面板、LINE/Discord/Telegram 告警、Docker 化服務、GitHub Actions CI/CD  
-- **視覺**：IV Smile、OI Histogram、Greeks、Payoff 與 PnL 儀表
-
-## ⚡ 亮點速覽
-- 🔁 **多券商打通**：Shioaji / CapitalAPI / IBAPI 同步整合（行情→風控→下單）  
-- 🧠 **Greeks/IV 驅動**：自適應履約價與價差寬度、動態避險、**OCO** 規則化  
-- 🧰 **完整工具**：GUI（PyQt6）、回測框架、監控告警與日誌、Docker＋CI/CD  
-- 📈 **視覺化**：IV Smile、OI/Greeks 分布、Payoff、Drawdown  
-- 🧪 **資料管線**：Selenium/BS4 擷取 TAIFEX／財報／Tick 餵研究與回測  
-- 🧩 **模組化**：策略引擎／路由器／風控／報表 清晰分工
-
-## 🛠️ 技能矩陣
-**Python**（Pandas、NumPy、SciPy、statsmodels、matplotlib、plotly）· **PyQt6** · **APIs**（Shioaji／CapitalAPI／IBAPI）· **SQL** · **Selenium/BS4** · **Docker** · **GitHub Actions** · **Node.js/Express** · **React/D3/Socket.IO**
-
-```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'fontSize': '16px', 'primaryColor': '#22272e', 'lineColor': '#9fb3c8'}} }%%
-mindmap
-  root((魏岑宇 · 技能))
-    策略
-      Short Strangle
-      Iron Condor
-      Straddle
-      IV Rank
-      動態避險
-    API
-      Shioaji
-      CapitalAPI
-      IBAPI
-    風控/運維
-      OCO
-      MTM 監控
-      告警 (LINE/Discord/Telegram)
-      審計日誌
-    GUI/視覺
-      PyQt6 面板
-      IV Smile
-      OI Histogram
-      Greeks/Payoff
-    回測
-      成本/滑點
-      MDD/Sharpe/PF
-      情境壓力
-    資料
-      Selenium
-      BeautifulSoup
-      Excel 自動化
-    基礎設施
-      Docker
-      GitHub Actions
-      模組化
-```
-
-## 🏗️ 系統架構
-```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'fontSize': '15px', 'primaryColor': '#1f2328', 'lineColor': '#7aa2f7'}} }%%
-flowchart LR
-  subgraph Data[資料來源]
-    Ticks[(Ticks)]
-    TAIFEX[(TAIFEX/CSV)]
-    Earnings[(財報/事件)]
-  end
-
-  subgraph Strategy[策略引擎]
-    IV[IV/Greeks]
-    SStrangle[Short Strangle]
-    ICondor[Iron Condor]
-    Hedger[動態避險]
-  end
-
-  subgraph Risk[風控系統]
-    OCO[OCO 管理]
-    MTM[MTM 監控]
-    Alerts[LINE/Discord/Telegram]
-  end
-
-  subgraph Router[交易路由]
-    SHIOJAI[Shioaji]
-    CAPITAL[CapitalAPI]
-    IB[IBAPI]
-  end
-
-  subgraph UIRep[UI & 報表]
-    PyQt6[PyQt6 面板]
-    Viz[IV Smile / OI / Payoff]
-    Logs[交易日誌]
-  end
-
-  Data --> Strategy --> Risk --> Router --> UIRep
-  Ticks --> Strategy
-  TAIFEX --> Strategy
-  Earnings --> Strategy
-```
-
-## 📊 策略手冊
-- **Short Strangle / Iron Condor**
-  - 進場：IV Rank、ATR/事件濾網
-  - 寬度：Delta 目標與 Expected Move
-  - 管理：分段停利、Rolling 與避險觸發
-- **動態避險**：Delta 帶與冷卻時間；期貨/標的對沖  
-- **Greeks/IV**：Smile/Skew 檢查；**Vega** 控倉；到期前 **Gamma** 風險控制  
-- **OCO 風控**：TP/SL 互斥；MTM kill-switch；下單節流
-
-## 🎯 代表專案
-
-### 🔥 選擇權交易儀表板 (TXO/TXF)
-> 即時交易儀表板，具備互動式市場數據、希臘值計算與策略模擬
-
-**[🔗 Weitsenyu/Option](https://github.com/Weitsenyu/Option)**
-
-🌟 **核心功能:**
-- TXF/TXO 即時行情與 Bidask 價差顯示  
-- 互動式 IV Smile 與 OI Histogram 視覺化 (D3.js)  
-- 希臘值計算 (Delta/Gamma/Theta/Vega/Rho) 即時更新  
-- 策略損益模擬與獲利分佈分析  
-- OCO 觸價系統與多通道告警  
-- Shioaji API 整合與 WebSocket 串流  
-
-**技術棧:** `React.js` `Node.js` `D3.js` `Socket.IO` `Docker` `GitHub Actions`
-
----
-
-### 🎬 YouTube Shorts 桌面版
-> 懸浮視窗 + 全域熱鍵，提供無干擾的 YouTube Shorts 觀看體驗
-
-**[🔗 Weitsenyu/YouTube-Shorts-Desktop](https://github.com/Weitsenyu/YouTube-Shorts-Desktop)**
-
-🌟 **核心功能:**  
-- 置頂懸浮視窗，支援多工作業  
-- 全域熱鍵控制播放/暫停/音量  
-- 自動劇院模式與最高畫質設定  
-- 單一實例保護與設定持久化  
-- 流暢 UI 介面與鍵盤快捷鍵  
-
-**技術棧:** `Electron` `Node.js` `CSS3` `JavaScript`
-
----
-
-<p align="left">
-  <a href="https://github.com/Weitsenyu/Option">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=Option&theme=radical" alt="Option 專案卡片"/>
-  </a>
-  <a href="https://github.com/Weitsenyu/YouTube-Shorts-Desktop">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=YouTube-Shorts-Desktop&theme=radical" alt="YSD 專案卡片"/>
-  </a>
-</p>
-
-## 🗺️ 發展規劃
-- [ ] 券商冗餘與自動故障轉移  
-- [ ] 避險場域最佳化（流動性感知）  
-- [ ] 風控服務微模組化  
-- [ ] Web 儀表板（React + D3）  
-- [ ] 策略設定 UI 與情境模擬器  
-
-## 📈 GitHub 統計與活動
-<p align="left">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Weitsenyu&show_icons=true&theme=tokyonight&hide_border=false" alt="GitHub 統計"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Weitsenyu&layout=compact&theme=tokyonight&hide_border=false" alt="主要語言"/>
-  <img height="170" src="https://streak-stats.demolab.com?user=Weitsenyu&theme=tokyonight&hide_border=false" alt="GitHub 連續貢獻"/>
-</p>
-
-### 🏆 GitHub 獎盃
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Weitsenyu&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="GitHub 獎盃"/>
-</p>
-
-### 📊 貢獻圖表
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Weitsenyu&bg_color=0d1117&color=79ff97&line=00b4d8&point=0077b6&area=true&hide_border=true" alt="貢獻圖表"/>
-
-</details>
-
----
-
-## 🤝 Connect & Contact · 聯絡方式
+## 🎯 選擇權策略專精 | Options Strategy Expertise
 
 <div align="center">
 
-### 💼 Professional Links
-<p>
-  <a href="https://www.linkedin.com/in/weitsenyu/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:a0906583999@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</p>
+</div>
 
-### 🌟 Open to Opportunities
-**Quant Trading Engineer** | **Risk Engineer** | **Options Strategies** | **API Integration**
+### 🔥 績效指標 | Performance Metrics
+- **📈 週報酬率**: 1-3%
+- **📉 最大回撤**: ≤ 1.5% 
+- **🛡️ 風險控制**: 即時MTM監控
 
-*Remote-friendly · Taiwan/APAC timezone preferred*
+---
+
+## 📚 技術專長詳解 | Technical Deep Dive
+
+<details>
+<summary><b>🐍 Python量化分析技術棧</b></summary>
+
+```python
+# 核心數據分析套件
+pandas, numpy, scipy          # 數據處理與統計分析  
+matplotlib, plotly            # 圖表視覺化
+statsmodels                   # 統計模型
+
+# 機器學習與建模
+scikit-learn                  # 機器學習算法
+tensorflow/keras              # 深度學習框架
+
+# 交易相關
+quantlib                      # 金融數學計算
+ta-lib                       # 技術指標
+backtrader                   # 策略回測
+```
+
+</details>
+
+<details>
+<summary><b>🔌 API整合與即時系統</b></summary>
+
+- **Shioaji API**: 永豐金證券Python交易API
+- **CapitalAPI**: 群益證券交易介面  
+- **Interactive Brokers API**: 國際券商TWS整合
+- **WebSocket即時串流**: tick-level市場數據
+- **RESTful API設計**: 微服務架構實現
+
+</details>
+
+<details>
+<summary><b>🎨 前端與GUI開發</b></summary>
+
+- **PyQt6**: 專業交易員工作站介面
+- **React.js + D3.js**: 互動式圖表儀表板
+- **Electron**: 跨平台桌面應用程式
+- **Socket.IO**: 即時數據推送
+- **CSS3動畫**: 流暢使用者體驗
+
+</details>
+
+---
+
+## 🚀 未來發展規劃 | Future Roadmap
+
+```mermaid
+timeline
+    title 技術發展藍圖
+    
+    2024 Q4 : 多券商API整合完成
+            : PyQt6交易面板開發
+            
+    2025 Q1 : React前端儀表板
+            : Docker容器化部署
+            
+    2025 Q2 : 機器學習模型研究
+            : 微服務架構設計
+            
+    2025 Q3 : 進階策略開發
+            : 系統效能最佳化
+```
+
+**技術發展方向:**
+- [ ] 🌐 完善React選擇權前端系統
+- [ ] 🔗 後端API與前端整合
+- [ ] 📊 進階數據分析與機器學習應用
+- [ ] ☁️ 雲端部署與微服務化
+
+**專業目標:**
+- [ ] 🏆 深化量化交易系統開發經驗  
+- [ ] 🤝 參與更大規模的金融科技專案
+- [ ] 📚 持續學習新興金融科技趨勢
+- [ ] 🌍 擴展國際金融市場技術應用
+
+---
+
+## 📊 GitHub統計與活躍度 | GitHub Analytics
+
+<div align="center">
+  
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Weitsenyu&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Weitsenyu&layout=compact&langs_count=7&theme=radical"/>
+
+</div>
+
+<div align="center">
+  
+![GitHub Streak](https://streak-stats.demolab.com/?user=Weitsenyu&theme=radical)
+
+</div>
+
+### 🏆 成就徽章 | Achievements
+<div align="center">
+  
+![Trophy](https://github-profile-trophy.vercel.app/?username=Weitsenyu&theme=radical&no-frame=true&row=1&column=6)
 
 </div>
 
 ---
 
+## 💬 聯絡與合作 | Contact & Collaboration
+
 <div align="center">
 
-**⚡ "Building robust trading systems that connect data, risk, and execution seamlessly" ⚡**
+### 🤝 **歡迎討論**
+**量化交易策略** • **API系統整合** • **風險管理系統** • **金融科技創新**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6366f1,100:0ea5e9&section=footer" alt="Footer wave"/>
+### 📫 **聯絡方式**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-專業諮詢-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/weitsenyu)
+[![Email](https://img.shields.io/badge/Email-技術交流-D14836?style=for-the-badge&logo=gmail)](mailto:a0906583999@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-開源合作-333?style=for-the-badge&logo=github)](https://github.com/Weitsenyu)
+
+### 🌟 **開放機會**
+**遠距工作友善** • **量化交易工程師** • **風險管理專家** • **API整合顧問**
+
+---
+
+*"在量化交易的世界裡，程式碼就是策略，數據就是武器"*  
+*"In quantitative trading, code is strategy and data is the weapon"*
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=100&section=footer"/>
 
 </div>
