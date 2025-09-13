@@ -53,17 +53,17 @@ I build **options trading systems** that connect **market data → risk → exec
 ---
 
 <details>
-<summary id="english"><b>English Section (click to expand)</b></summary>
+<summary id="english"><b>🚀 English Section (click to expand)</b></summary>
 
-## About
-I’m a **Quant Trading Engineer** focused on **options automation**, **multi-broker API integration**, and **risk engineering**. I turn research into production systems with high **observability** and **safety** across the pipeline **market data → risk → execution**.
+## 👨‍💻 About
+I'm a **Quant Trading Engineer** focused on **options automation**, **multi-broker API integration**, and **risk engineering**. I turn research into production systems with high **observability** and **safety** across the pipeline **market data → risk → execution**.
 
 - **Strategies**: short-vol structures (Short Strangle / Iron Condor / Straddle), IV/Greeks-driven logic, dynamic hedging  
 - **APIs**: **Shioaji**, **CapitalAPI**, **IBAPI** — unified routing & normalized order/exec reports  
 - **Engineering**: **PyQt6** trading panel, alerting (LINE / Discord / Telegram), Dockerized services, CI/CD on GitHub Actions  
 - **Visualization**: IV Smile, OI Histogram, Greeks, payoff & PnL dashboards
 
-## Highlights
+## ⚡ Highlights
 - 🔁 **Multi-broker integration**: Shioaji / CapitalAPI / IBAPI in one coherent flow (quotes → risk → orders)  
 - 🧠 **Greeks/IV driven**: adaptive strikes/widths, dynamic hedging, structured **OCO** risk rules  
 - 🧰 **Tooling**: GUI (PyQt6), backtesting, monitoring/logging, Docker + CI/CD  
@@ -71,7 +71,7 @@ I’m a **Quant Trading Engineer** focused on **options automation**, **multi-br
 - 🧪 **Data**: Selenium/BS4 pipelines for TAIFEX/earnings/ticks  
 - 🧩 **Modularity**: strategy engine / router / risk / reporting decoupled
 
-## Skills Matrix
+## 🛠️ Skills Matrix
 **Python** (Pandas, NumPy, SciPy, statsmodels, matplotlib, plotly) · **PyQt6** · **APIs** (Shioaji / CapitalAPI / IBAPI) · **SQL** · **Selenium/BS4** · **Docker** · **GitHub Actions** · **Node.js/Express** · **React/D3/Socket.IO**
 
 <p align="left">
@@ -127,7 +127,7 @@ mindmap
       Modularization
 ```
 
-## System Design
+## 🏗️ System Architecture
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'fontSize': '15px', 'primaryColor': '#1f2328', 'lineColor': '#7aa2f7'}} }%%
 flowchart LR
@@ -151,7 +151,7 @@ flowchart LR
   end
 
   subgraph Router[Trading Router]
-    SHIOAJI[Shioaji]
+    SHIOJAI[Shioaji]
     CAPITAL[CapitalAPI]
     IB[IBAPI]
   end
@@ -168,7 +168,7 @@ flowchart LR
   Earnings --> Strategy
 ```
 
-## Strategy Playbook
+## 📊 Strategy Playbook
 - **Short Strangle / Iron Condor**
   - Entry: IV rank threshold, ATR context, earnings/holiday filters
   - Width: delta targeting & expected move
@@ -177,48 +177,85 @@ flowchart LR
 - **Greeks/IV**: skew/smile checks; **vega** sizing; **gamma** control near expiry  
 - **OCO Risk**: TP/SL mutual exclusion; MTM kill-switch; order throttling
 
-## Backtesting & Analytics
+## 🔬 Backtesting & Analytics
 - **Costs & Slippage**, partial fills, queue effects  
 - **Metrics**: Sharpe, Sortino, MDD, WinRate, PF, tail losses  
 - **Scenarios**: vol expansion/contraction, gap risk, early assignment
 
-## Featured Projects
-- **Option – Automated Options Trading Platform** → **[Weitsenyu/Option](https://github.com/Weitsenyu/Option)**  
-  Python, PyQt6, IV/Greeks, dynamic hedging, **OCO**, unified routing for **Shioaji/Capital/IB**
-- **YouTube-Shorts-Desktop** → **[Weitsenyu/YouTube-Shorts-Desktop](https://github.com/Weitsenyu/YouTube-Shorts-Desktop)**  
-  Desktop app (Electron/Node.js or PyQt6), API fetch, smooth UI
+## 🎯 Featured Projects
+
+### 🔥 Options Trading Dashboard (TXO/TXF)
+> Real-time trading dashboard with interactive market data, Greeks calculation, and strategy simulation
+
+**[🔗 Weitsenyu/Option](https://github.com/Weitsenyu/Option)**
+
+🌟 **Core Features:**
+- Real-time TXF/TXO market data with bidask spreads  
+- Interactive IV Smile & OI Histogram visualization (D3.js)  
+- Greeks calculation (Delta/Gamma/Theta/Vega/Rho) with live updates  
+- Strategy P&L simulation with profit distribution analysis  
+- OCO trigger system with multi-channel alerts  
+- Shioaji API integration with WebSocket streaming  
+
+**Tech Stack:** `React.js` `Node.js` `D3.js` `Socket.IO` `Docker` `GitHub Actions`
+
+---
+
+### 🎬 YouTube Shorts Desktop
+> Floating window + global hotkeys for distraction-free YouTube Shorts viewing
+
+**[🔗 Weitsenyu/YouTube-Shorts-Desktop](https://github.com/Weitsenyu/YouTube-Shorts-Desktop)**
+
+🌟 **Core Features:**  
+- Always-on-top floating window for seamless multitasking  
+- Global hotkeys for play/pause/volume control  
+- Auto theater mode & highest quality settings  
+- Single instance protection & persistent settings  
+- Smooth UI with keyboard shortcuts  
+
+**Tech Stack:** `Electron` `Node.js` `CSS3` `JavaScript`
+
+---
 
 <p align="left">
-  <a href="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=Option&theme=radical">
+  <a href="https://github.com/Weitsenyu/Option">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=Option&theme=radical" alt="Option Repo Card"/>
   </a>
-  <a href="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=YouTube-Shorts-Desktop&theme=radical">
+  <a href="https://github.com/Weitsenyu/YouTube-Shorts-Desktop">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=YouTube-Shorts-Desktop&theme=radical" alt="YSD Repo Card"/>
   </a>
 </p>
 
-## Roadmap
+## 🗺️ Roadmap
 - [ ] Broker redundancy & auto-failover  
 - [ ] Hedging venue selection (liquidity-aware)  
 - [ ] Risk service micro-components  
 - [ ] Options web dashboard (React + D3)  
 - [ ] Strategy config UI & scenario simulator  
 
-## Stats & Badges
+## 📈 GitHub Stats & Activity
 <p align="left">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=Weitsenyu&show_icons=true&theme=tokyonight&hide_border=false" alt="GitHub Stats"/>
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Weitsenyu&layout=compact&theme=tokyonight&hide_border=false" alt="Top Languages"/>
   <img height="170" src="https://streak-stats.demolab.com?user=Weitsenyu&theme=tokyonight&hide_border=false" alt="GitHub Streak"/>
 </p>
 
+### 🏆 GitHub Trophies
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Weitsenyu&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies"/>
+</p>
+
+### 📊 Contribution Graph
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Weitsenyu&bg_color=0d1117&color=79ff97&line=00b4d8&point=0077b6&area=true&hide_border=true" alt="Contribution Graph"/>
+
 </details>
 
 ---
 
 <details>
-<summary id="zh"><b>中文段落（點我展開）</b></summary>
+<summary id="zh"><b>🚀 中文段落（點我展開）</b></summary>
 
-## 關於我
+## 👨‍💻 關於我
 我是一名 **量化交易工程師**，專注 **選擇權自動化**、**多券商 API 串接** 與 **風險工程**，將研究轉化為具 **可觀測性** 與 **安全性** 的實戰系統，完整覆蓋 **行情 → 風控 → 下單**。
 
 - **策略**：賣方結構（Short Strangle / Iron Condor / Straddle）、IV/Greeks 驅動、動態避險  
@@ -226,7 +263,7 @@ flowchart LR
 - **工程**：**PyQt6** 交易面板、LINE/Discord/Telegram 告警、Docker 化服務、GitHub Actions CI/CD  
 - **視覺**：IV Smile、OI Histogram、Greeks、Payoff 與 PnL 儀表
 
-## 亮點速覽
+## ⚡ 亮點速覽
 - 🔁 **多券商打通**：Shioaji / CapitalAPI / IBAPI 同步整合（行情→風控→下單）  
 - 🧠 **Greeks/IV 驅動**：自適應履約價與價差寬度、動態避險、**OCO** 規則化  
 - 🧰 **完整工具**：GUI（PyQt6）、回測框架、監控告警與日誌、Docker＋CI/CD  
@@ -234,7 +271,7 @@ flowchart LR
 - 🧪 **資料管線**：Selenium/BS4 擷取 TAIFEX／財報／Tick 餵研究與回測  
 - 🧩 **模組化**：策略引擎／路由器／風控／報表 清晰分工
 
-## 技能矩陣
+## 🛠️ 技能矩陣
 **Python**（Pandas、NumPy、SciPy、statsmodels、matplotlib、plotly）· **PyQt6** · **APIs**（Shioaji／CapitalAPI／IBAPI）· **SQL** · **Selenium/BS4** · **Docker** · **GitHub Actions** · **Node.js/Express** · **React/D3/Socket.IO**
 
 ```mermaid
@@ -275,7 +312,7 @@ mindmap
       模組化
 ```
 
-## 系統設計
+## 🏗️ 系統架構
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'fontSize': '15px', 'primaryColor': '#1f2328', 'lineColor': '#7aa2f7'}} }%%
 flowchart LR
@@ -299,7 +336,7 @@ flowchart LR
   end
 
   subgraph Router[交易路由]
-    SHIOAJI[Shioaji]
+    SHIOJAI[Shioaji]
     CAPITAL[CapitalAPI]
     IB[IBAPI]
   end
@@ -316,7 +353,7 @@ flowchart LR
   Earnings --> Strategy
 ```
 
-## 策略手冊
+## 📊 策略手冊
 - **Short Strangle / Iron Condor**
   - 進場：IV Rank、ATR/事件濾網
   - 寬度：Delta 目標與 Expected Move
@@ -325,34 +362,99 @@ flowchart LR
 - **Greeks/IV**：Smile/Skew 檢查；**Vega** 控倉；到期前 **Gamma** 風險控制  
 - **OCO 風控**：TP/SL 互斥；MTM kill-switch；下單節流
 
-## 代表專案
-- **Option — 自動化選擇權交易平台** → **[Weitsenyu/Option](https://github.com/Weitsenyu/Option)**  
-  Python、PyQt6、IV/Greeks、動態避險、**OCO**、**Shioaji/Capital/IB** 統一路由
-- **YouTube-Shorts-Desktop** → **[Weitsenyu/YouTube-Shorts-Desktop](https://github.com/Weitsenyu/YouTube-Shorts-Desktop)**  
-  桌面端（Electron/Node.js 或 PyQt6）、API 取數、流暢 UI
+## 🎯 代表專案
 
-## 規劃
+### 🔥 選擇權交易儀表板 (TXO/TXF)
+> 即時交易儀表板，具備互動式市場數據、希臘值計算與策略模擬
+
+**[🔗 Weitsenyu/Option](https://github.com/Weitsenyu/Option)**
+
+🌟 **核心功能:**
+- TXF/TXO 即時行情與 Bidask 價差顯示  
+- 互動式 IV Smile 與 OI Histogram 視覺化 (D3.js)  
+- 希臘值計算 (Delta/Gamma/Theta/Vega/Rho) 即時更新  
+- 策略損益模擬與獲利分佈分析  
+- OCO 觸價系統與多通道告警  
+- Shioaji API 整合與 WebSocket 串流  
+
+**技術棧:** `React.js` `Node.js` `D3.js` `Socket.IO` `Docker` `GitHub Actions`
+
+---
+
+### 🎬 YouTube Shorts 桌面版
+> 懸浮視窗 + 全域熱鍵，提供無干擾的 YouTube Shorts 觀看體驗
+
+**[🔗 Weitsenyu/YouTube-Shorts-Desktop](https://github.com/Weitsenyu/YouTube-Shorts-Desktop)**
+
+🌟 **核心功能:**  
+- 置頂懸浮視窗，支援多工作業  
+- 全域熱鍵控制播放/暫停/音量  
+- 自動劇院模式與最高畫質設定  
+- 單一實例保護與設定持久化  
+- 流暢 UI 介面與鍵盤快捷鍵  
+
+**技術棧:** `Electron` `Node.js` `CSS3` `JavaScript`
+
+---
+
+<p align="left">
+  <a href="https://github.com/Weitsenyu/Option">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=Option&theme=radical" alt="Option 專案卡片"/>
+  </a>
+  <a href="https://github.com/Weitsenyu/YouTube-Shorts-Desktop">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Weitsenyu&repo=YouTube-Shorts-Desktop&theme=radical" alt="YSD 專案卡片"/>
+  </a>
+</p>
+
+## 🗺️ 發展規劃
 - [ ] 券商冗餘與自動故障轉移  
 - [ ] 避險場域最佳化（流動性感知）  
 - [ ] 風控服務微模組化  
-- [ ] Web 儀表（React + D3）  
+- [ ] Web 儀表板（React + D3）  
 - [ ] 策略設定 UI 與情境模擬器  
 
-## 統計與徽章
+## 📈 GitHub 統計與活動
 <p align="left">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=Weitsenyu&show_icons=true&theme=tokyonight&hide_border=false" alt="GitHub 統計"/>
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Weitsenyu&layout=compact&theme=tokyonight&hide_border=false" alt="主要語言"/>
   <img height="170" src="https://streak-stats.demolab.com?user=Weitsenyu&theme=tokyonight&hide_border=false" alt="GitHub 連續貢獻"/>
 </p>
 
+### 🏆 GitHub 獎盃
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Weitsenyu&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="GitHub 獎盃"/>
+</p>
+
+### 📊 貢獻圖表
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Weitsenyu&bg_color=0d1117&color=79ff97&line=00b4d8&point=0077b6&area=true&hide_border=true" alt="貢獻圖表"/>
+
 </details>
 
 ---
 
-## Contact · 聯絡
-- **LinkedIn**: https://www.linkedin.com/in/weitsenyu/  
-- **Email**: a0906583999@gmail.com
+## 🤝 Connect & Contact · 聯絡方式
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6366f1,100:0ea5e9&section=footer" alt="Footer wave"/>
+<div align="center">
+
+### 💼 Professional Links
+<p>
+  <a href="https://www.linkedin.com/in/weitsenyu/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:a0906583999@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
+
+### 🌟 Open to Opportunities
+**Quant Trading Engineer** | **Risk Engineer** | **Options Strategies** | **API Integration**
+
+*Remote-friendly · Taiwan/APAC timezone preferred*
+
+</div>
+
+---
+
+<div align="center">
+
+**⚡ "Building robust trading systems that connect data, risk, and execution seamlessly" ⚡**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6366f1,100:0ea5e9&section=footer" alt="Footer wave"/>
+
+</div>
